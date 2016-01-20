@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--FuncaoNativa-->
+<html>
+    <head>
+        <title>ObjetoComMetodo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="dist/js/js"></script>
+ 
+    </head>
+    <h2> Usando a função Display para mostrar todas as propriedades do objeto</h2>
+
+    <p id="demo"></p>
+
+    <body>
+        <script>
+   
+     var person = {
+            nome: "John",
+            cidade: "Uirauna",
+            hobby: "guitarra",
+            display: function () {
+                return "Pessoa { Nome : "+ this.nome + " Cidade: " + this.cidade + " Hobby " +this.hobby + " }";
+            }
+        };
+
+        document.getElementById("demo").innerHTML = person.display();
+        </script>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>UsandoBreak</title>
+        <link rel="stylesheet" href="">
+    </head>
+
+    <p>Este loop de 0 a 9 tem um break</p>
+
+    <p id="demo"></p>
+
+    <script>
+        var text = "";
+        var i;
+        for (i = 0; i < 10; i++) {
+
+            if (i === 3) {
+                break;
+            }
+            text += "O numero é " + i + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+</body>
+</html>

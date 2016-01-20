@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--AcessoMetodoObjeto-->
+<html>
+    <head>
+        <title>AcessandoMetodoObjeto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <p>Creating and using an object method.</p>
+
+    <p>An object method is a function definition, stored as a property value.</p>
+    <p>Um metodo de objeto é uma definição função, armazenada como uma propriedade de valor </p>
+
+    <p id="demo"></p>
+
+    <script>
+        var person = {
+            firstName: "John",
+            lastName: "Doe",
+            id: 5566,
+            fullName: function () {
+                return this.firstName + " " + this.lastName;
+            }
+        };
+
+        document.getElementById("demo").innerHTML = person.fullName();
+    </script>
+</body>
+</html>
+
+Result:

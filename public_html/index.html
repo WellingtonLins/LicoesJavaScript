@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--index-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <p>Criando um objeto carro e mostrando </p>
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <script>
+
+            var car = {
+                modelo: "Pampa",
+                ano: 2000,
+                valor: 15000,
+                placa: "ABC1020"
+            };
+
+            document.getElementById("demo").innerHTML = "Carro Modelo " + car.modelo + "<br>Ano " +
+                    car.ano + "<br>Valor " + car.valor + "<br>Placa " + car.placa;
+
+            var moto = {
+                modelo: "Broz",
+                valor: 5000
+            };
+
+            document.getElementById("demo2").innerHTML = "Moto Modelo " + moto.modelo  + "<br>Valor " +
+                    moto.valor;
+        </script>
+
+    </body>
+</html>

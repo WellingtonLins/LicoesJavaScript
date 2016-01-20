@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Objeto</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <script>
+            var nome = "Wellington Lins";
+            var idade = 32;
+            var email = "wellingtonlins2013@gmail.com"
+
+            console.log(nome);
+            console.log(idade);
+            console.log(email);
+
+            var pessoa = {
+                nome: "Paulo Silveira",
+                idade: 33,
+                email: "paulo.silveira@casadocodigo.com.br"
+            };
+
+            console.log("\nOutra pessoa \n");
+            console.log(pessoa);
+            console.log("Imprimindo só um atributo do objeto \n");
+            console.log(pessoa.nome);
+            console.log("\n Alterando o valor do nome:");
+            pessoa.nome = "Paulinho da viola";
+            console.log("\nMostrando as alterações do objeto \n");
+            console.log(pessoa);
+        </script>
+    </body>
+</html>

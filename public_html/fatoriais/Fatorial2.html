@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<p>Resultado do fatorial de 5 :</p>
+	<p id="demo"></p>
+
+	<script>
+		function fatorial(n){
+		 fator= 1;
+		 i=1;
+		 for(i;i<=n;i++){
+		 	fator= fator*i;
+		 }
+		return fator;
+		}
+	  
+		var valor;
+		valor = 5;
+	    document.getElementById("demo").innerHTML= 'The valour of the fatorial is:' + fatorial(valor);
+
+	 </script>
+<!--
+i   *  fator    fatorI
+1   *    1 =	1;
+2   *    1 = 	2;
+3   *    2 =	6;
+4   *    6 =    24;
+5   *    24 = 	120;
+
+Segundo tal definição, o fatorial de 5 é representado por 5! e lê-se 5 fatorial.
+5! é igual a 5 . 4 . 3 . 2 . 1 que é igual a 120, assim como 4! é igual a 4 . 3 . 2 . 1 que é igual a 24, como 3! é igual a 3 . 2 . 1 que é igual a 6 e que 2! é igual a 2 . 1 que é igual a 2.
+Por definição tanto 0!, quanto 1! são iguais a 1.
+-->
+ </body>
+</html>

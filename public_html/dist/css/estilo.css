@@ -1,0 +1,26 @@
+/* 
+    Document   : estilo
+    Created on : 18/01/2016, 17:54:40
+    Author     : Wellington Lins Claudino Duarte   <wellingtonlins2013@gmail.com>
+*/
+
+#center{font-family:arial;font-size:12pt;color:#696969;} 
+
+#pergunta{background-color:#33FF66;font-family:arial;font-size:12pt;color:#000000;} 
+#resposta{background-color:#fefefe;font-family:arial;font-size:12pt;color:#000000;} 
+#input{border:1px solid #cccccc;background-color:#fefefe;font-family:arial;font-size:12pt;color:#696969;} 
+#normal{font-family:arial;font-size:12pt;color:#696969;text-decoration:none;} 
+input{font-family:arial;font-size:12pt;color:#1c1c1c;} 
+
+body{
+
+}
+.central{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.espaco{
+  
+    margin: 1.5%;
+}
