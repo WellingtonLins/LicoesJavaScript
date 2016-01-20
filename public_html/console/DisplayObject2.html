@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--DisplayObject2-->
+<html>
+    <head>
+        <title>DisplayObjec</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            function mostrarObjeto(o) {
+                var out = '';
+                for (var p in o) {
+                    out += p + ': ' + o[p] + '\n';
+                }
+                alert(out);
+            }
+
+            var myObject = {nome: "Joao", idade: 20};
+            mostrarObjeto(myObject);
+         
+        </script>
+    </body>
+</html>

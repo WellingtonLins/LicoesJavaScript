@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--GetElementsByTagName-->
+<html>
+    <head>
+        <title>GetElementsByTagName</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <p>Lista desordenada:</p>
+        <ul>
+            <li>Coca-cola</li>
+            <li>Pepsi</li>
+            <li>Fanta</li>
+        </ul>
+
+        <p>Click o botão o para ver o innerHTML do segundoo elemento li (index 1).</p>
+        <p>o index começa de 0</p>
+
+        <button onclick="myFunction()">Sumeter</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementsByTagName("LI");
+                document.getElementById("demo").innerHTML = x[1].innerHTML;
+            }
+        </script>
+
+    </body>
+</html>

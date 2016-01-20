@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--CalcularSoma-->
+<html>
+    <head>
+        <title>CalcularSoma</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            function calcular() {
+                var n = document.getElementById("number").value;
+
+                document.getElementById("demo").innerHTML = "O quadrado de " + n + " é = " + n * n;
+            }
+        </script>
+
+        Nuumero <input id="number" type="text" />
+        <button onclick="calcular()">Submeter</button>
+        <p id ="demo"></p>
+    </body>
+</html>
