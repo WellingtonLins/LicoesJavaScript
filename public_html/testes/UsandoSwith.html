@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--UsandoSwith-->
+<!--Wellington Lins  <wellingtonlins2013@gmail.com>-->  
+<!--20/01/2016-->     
+<!--17:37:52-->
+<html>
+    <head>
+        <title>UsandoSwith</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="" rel="stylesheet" type="text/css">      
+    </head>
+    <p id="demo"></p>
+
+    <script>
+        var day;
+        switch (new Date().getDay()) {
+            case 0:
+                day = "Domingo";
+                break;
+            case 1:
+                day = "Segunda";
+                break;
+            case 2:
+                day = "Terça";
+                break;
+            case 3:
+                day = "Quarta";
+                break;
+            case 4:
+                day = "Quinta";
+                break;
+            case 5:
+                day = "Sexta";
+                break;
+            case  6:
+                day = "Sabado";
+                break;
+        }
+        document.getElementById("demo").innerHTML = "Hoje é " + day;
+    </script>
+
+</body>
+</html>

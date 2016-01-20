@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--UsandoSwith2-->
+<!--Wellington Lins  <wellingtonlins2013@gmail.com>-->  
+<!--20/01/2016-->     
+<!--17:43:11-->
+<html>
+    <head>
+        <title>UsandoSwith2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="" rel="stylesheet" type="text/css">      
+        <script type="text/javascript" src=""></script>
+    </head>
+    <body>
+        <script>
+            function verificar() {
+                var nome = document.getElementById("nome").value;
+                switch (nome) {
+
+                    case "Jose":
+                        document.getElementById("demo").innerHTML = "Você é o Jose!";
+                        break;
+                    case "Joao":
+                        document.getElementById("demo").innerHTML = "Você é o Joao!";
+                        break;
+                    case "Ana":
+                        document.getElementById("demo").innerHTML = "Você é a Ana!";
+                        break;
+
+                    default :
+                        document.getElementById("demo").innerHTML = "Você é uma pessoa desconhecida!";
+                        break;
+                }
+            }
+        </script>
+
+        Nome <input id="nome" type="text" />
+        <button onclick="verificar()">Submeter</button>
+
+        <p id="demo"></p>
+    </body>
+</html>

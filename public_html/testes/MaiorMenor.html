@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--MaiorMenor-->
+<!--Wellington Lins  <wellingtonlins2013@gmail.com>-->  
+<!--20/01/2016-->     
+<!--17:11:27-->
+<html>
+    <head>
+        <title>MaiorMenor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="" rel="stylesheet" type="text/css">      
+    </head>
+
+    <body>
+        <script>
+            function calcular() {
+                var numero1 = document.getElementById("number1").value,
+                        numero2 = document.getElementById("number2").value;
+
+                if (numero1 > numero2) {
+                    document.getElementById("demo").innerHTML = " <h4>Resultado da soma:</h4>" +
+                            "O numero  " + numero1 + " é Maior!";
+
+                }
+                else {
+                    document.getElementById("demo").innerHTML = " <h4>Resultado da soma:</h4>" +
+                            "O numero " + numero2 + " é Maior!";
+                }
+            }
+        </script>
+
+        Nuumero <input id="number1" type="text" /></br>
+        Nuumero <input id="number2" type="text" /></br>
+        <button onclick="calcular()">Submeter</button>
+
+        <p id ="demo"></p>
+    </body>
+</html>
