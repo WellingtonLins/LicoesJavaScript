@@ -1,4 +1,4 @@
-#LicoesJavaScript
+# LicoesJavaScript
 
 Criação desse projeto visa dar uma introdução ao aprendizado do javascript.
 
@@ -27,7 +27,7 @@ O projeto possui uma abordem simples , expondo problemas de fácil solução.
 ## Documentação Docker
 
 
-## Construido com 
+## Construído com 
 
 * [JavaScript](http://www.dropwizard.io/1.0.2/docs/) - Lingugem de programação
 * [NetBeans](https://netbeans.org/downloads/) - Usado para escrever o codigo fonte do projeto
